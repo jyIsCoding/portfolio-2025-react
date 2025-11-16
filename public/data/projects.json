@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "slug": "mon-portfolio-2025",
+      "title": "Mon Portfolio 2025",
+      "date": "Novembre 2025",
+      "category": "code",
+      "role": "Développeur Front-End",
+      
+      "shortDescription": "Mon portfolio personnel pour 2025, construit avec React, TypeScript et TailwindCSS.",
+      "longDescription": "Ce projet m'a permis d'apprendre React de zéro et de solidifier mes compétences sur TailwindCSS...",
+      
+      "thumbnailUrl": "/images/projects/portfolio-thumb.png",
+      "gallery": [],
+      
+      "tools": ["React", "TailwindCSS", "TypeScript", "Vite", "Figma"],
+      
+      "links": {
+        "github": "https://github.com/jyiscoding/portfolio-2025",
+        "live": "https://jy.com"
+      }
+    },
+    {
+      "slug": "logo-brasserie",
+      "title": "Identité Visuelle - Horizon",
+      "date": "Septembre 2025",
+      "category": "design",
+      "role": "Designer Graphique",
+      
+      "shortDescription": "Création d'une identité visuelle complète pour une microbrasserie locale.",
+      "longDescription": "Le défi était de créer un look moderne tout en gardant un aspect artisanal...",
+      
+      "thumbnailUrl": "/images/projects/brasserie-thumb.png",
+      "gallery": [
+        "/images/projects/brasserie-gallery-1.png",
+        "/images/projects/brasserie-gallery-2.png"
+      ],
+      
+      "tools": ["Illustrator", "Photoshop", "Figma"],
+      
+      "links": {
+        "behance": "https://behance.net/"
+      }
+    },
+    {
+      "slug": "intro-youtube-tech",
+      "title": "Intro YouTube (Tech)",
+      "date": "Septembre 2025",
+      "category": "montage",
+      "role": "Monteur Vidéo / Motion Designer",
+      
+      "shortDescription": "Animation d'introduction pour une chaîne YouTube spécialisée dans la tech.",
+      "longDescription": "...",
+      
+      "thumbnailUrl": "/images/projects/yt-intro-thumb.png",
+      "gallery": [],
+      
+      "tools": ["After Effects", "Premiere Pro", "Illustrator"],
+      
+      "links": {
+        "youtube": "https://youtube.com/"
+      }
+    },
+    {
+      "slug": "landing-page-canva",
+      "title": "Landing Page (Canva)",
+      "date": "Août 2025",
+      "category": "web design",
+      "role": "Web Designer",
+      
+      "shortDescription": "Maquette d'une landing page pour un coach de vie, conçue entièrement sur Canva.",
+      "longDescription": "...",
+      
+      "thumbnailUrl": "/images/projects/canva-landing-thumb.png",
+      "gallery": [],
+      
+      "tools": ["Canva", "Figma"],
+      
+      "links": {}
+    }
+  ]
+}

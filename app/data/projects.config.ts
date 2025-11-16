@@ -1,0 +1,2 @@
+export const ALL_CATEGORIES = ["code", "design", "web design", "montage"];
+export const ALL_TOOLS = ["React", "TailwindCSS", "Figma", "Illustrator", "Photoshop", "Canva", "WordPress", "After Effects", "Premiere Pro"];
