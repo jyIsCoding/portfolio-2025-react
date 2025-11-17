@@ -1,11 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white shadow-lg">
-      <nav className="container mx-auto flex items-center justify-between p-4">
-        <div className="space-x-4">
-          <a href="/" className="hover:text-gray-300">Accueil</a>
-          <a href="/projets" className="hover:text-gray-300">Projets</a>
-          <a href="/contact" className="hover:text-gray-300">Contact</a>
+    <footer className="bg-white-300/100 border-white/5 border-t-2 backdrop-blur-2xl">
+      <nav className="container mx-auto p-2">
+        <div className="space-x-4 flex justify-end">
+          <p className="text-xs text-white/15">tout droits réservés © 2025 Jayden Labelle</p>
         </div>
       </nav>
     </footer>

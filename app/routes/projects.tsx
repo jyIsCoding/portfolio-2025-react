@@ -1,8 +1,8 @@
 import type { Route } from "./+types/projects";
 import { useState } from 'react';
-import { useProjects } from '~/hooks/useProjects'; // NOTRE HOOK
-import { ProjectFilters } from '~/components/projectFilters'; // NOTRE FRONT-END
-import { ProjectCard } from '~/components/projectCard'; // NOTRE FRONT-END
+import { useProjects } from '~/hooks/useProjects';
+import { ProjectFilters } from '~/components/projectFilters'; 
+import { ProjectCard } from '~/components/projectCard'; 
 
 //Meta description et titre
 export function meta({}: Route.MetaArgs) {
@@ -45,7 +45,7 @@ export default function ProjectsPage() {
             <ProjectCard key={project.slug} project={project} />
           ))
         ) : (
-          <p className="text-gray-400 col-span-2">Aucun projet ne correspond à vos filtres.</p>
+          <p className="text-gray-400 col-span-2">Aucun projet ne correspond à cette sélection.</p>
         )}
       </div>
     </div>

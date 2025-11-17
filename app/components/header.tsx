@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-white shadow-lg">
+    <header className="bg-white/5 border-white/10 border-b-2 backdrop-blur-2xl">
       <nav className="container mx-auto flex items-center justify-between p-4">
         <a href="/" className="text-2xl font-bold">
           JY
